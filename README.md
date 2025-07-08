@@ -10,3 +10,6 @@ physalia course 2025
 ```r
 library(imageRy)
 ```
+
+> this is a note
+
