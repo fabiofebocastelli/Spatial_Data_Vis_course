@@ -35,6 +35,7 @@ ndvi <- c(ndvi02, ndvi05, ndvi08, ndvi11)
 # NDVI = (NIR - red) / (NIR + red)
 # NDVI = (15 - 0) / (15 + 0) = 1
 
+# ridgeline works for continuos data
 im.ridgeline(ndvi, scale=1)
 names(ndvi) = c("m02_feb", "m05_may", "m08_aug", "m11_nov")
 
